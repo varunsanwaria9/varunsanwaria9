@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.nav-main {
+    height: 10vh;
+    padding: 0vh 3vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-main button {
+    font-size: 2.5vh;
+    margin: 0vh 1vw;
+    padding: 1vh 1vw;
+    background-color: black;
+    color: azure;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    transition: 3s ease-in-out;
+}
+
+.nav-main button:hover {
+    border-bottom: 3px solid purple;
+}
+
