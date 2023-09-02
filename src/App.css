@@ -3,3 +3,10 @@
     width: 100vw;
     background-color: black;
 }
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(4vh);
+}

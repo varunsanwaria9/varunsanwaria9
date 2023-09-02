@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Tilt+Prism&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Slab&family=Tilt+Prism&display=swap');
+
+.work-main-body {
+    top: 100vh;
+    left: 0;
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    padding: 5vh 0;
+}
+.work-main-header {
+    height: 10vh;
+}
+.work-main-header p {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 7vh;
+    font-family: "Roboto Slab", serif;
+    font-family: "Tilt Prism", cursive;
+    letter-spacing: 0.5vw;
+}
+.work-main-data {
+    margin-top: 5vh;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work-main-data-circle {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: orange;
+}
+.work-main-data-line {
+    width: 10vw;
+    height: 1vh;
+    background-color: red;
+}
+.work-main-data-text {
+    color: white;
+    transform: translate(-1vw,4vh);
+    font-size: 2.5vh;
+}
+
+.work-main-text {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
