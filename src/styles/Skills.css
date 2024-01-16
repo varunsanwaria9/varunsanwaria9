@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Tilt+Prism&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Slab&family=Tilt+Prism&display=swap');
+
+.skills-main-body {
+    top: 200vh;
+    left: 0;
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-subsection {
+    width: 80vw;
+    padding: 0 10vw;
+    margin: 5vh 0;
+}
+.skills-subheader {
+    color: #FFF;
+    font-family: "Roboto Slab", serif;
+    font-family: "Tilt Prism", cursive;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.skills-subtext {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.skills-subtext li {
+    width: 70vw;
+    margin: 1vh 0;
+}
+.skills-badge-img {
+    width: 5dvw;
+    height:8dvh;
+    margin: 0;
+    padding: 0;
+    animation: logoImage forwards;
+    animation-timeline: view();
+}
+
+@keyframes logoImage {
+    from {
+        scale: 0.1;
+        opacity: 0;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}

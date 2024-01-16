@@ -1,8 +1,8 @@
 import HomePage from "./components/HomePage";
 import NavbarFn from "./components/Navbar";
 import Work from "./components/Work";
+import Skills from "./components/Skills";
 import './App.css'
-import Skill from "./components/Skill";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <NavbarFn />
       <HomePage />
       <Work />
-      <Skill />
+      <Skills />
     </div>
   );
 }
